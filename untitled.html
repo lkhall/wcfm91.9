@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+    <body>
+
+    <style>
+        .main {
+          display: grid;
+          grid-gap: 10px;
+          grid-template:
+            "left_sidebar center right_sidebar"
+            / 1fr 5fr 1fr;
+        }
+
+        .left_sidebar { grid-area: left_sidebar; }
+        .center { grid-area: center; }
+        .right_sidebar { grid-area: right_sidebar; }
+
+        .section {
+            background-color: #EBB2E7;
+        }
+
+        header {
+            background-color: #EBB2E7;
+        }
+        .glowpad { margin: 0 auto; padding:10px; width:100%; box-sizing:border-box; }
+
+        .glow {
+        margin: 0 auto;
+        width:100%;
+        height:150px;
+        border:3px solid pink;
+        background:pink;
+        border-radius:10px;
+        box-shadow: 0px 0px 10px pink, 0px 0px 10px pink, 0px 0px 10px pink, 0px 0px 10px pink, 0px 0px 14px pink;
+        color:black;
+        overflow-y:auto;
+        }
+
+    </style>
+    <div class="main">
+        <div class="left_sidebar section">
+            <p>Hello</p>
+        </div>
+        <div class="center section">
+            <script src="layout.js"></script>
+            <h2>Currently playing:</h2>
+            <iframe src="https://spinitron.com/widget/now-playing-v2?station=wcfm" allow="encrypted-media"></iframe> 
+        </div>
+        <div class="right_sidebar section">
+            <div class="glowpad"><div class="glow">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fringilla urna vitae massa egestas tincidunt. Nunc vel felis velit. Aliquam varius mauris vel elit consectetur, ut varius nisi dapibus. Etiam at nibh eu nulla fermentum tristique. Mauris ultricies nisi quis odio molestie tempor. Duis a dolor risus. Pellentesque sed quam vel dolor euismod bibendum quis sed augue. Vivamus urna tellus, iaculis a luctus a, dapibus quis nisl. In eget enim ultricies, accumsan tortor vitae, facilisis libero. Donec massa leo, porta sit amet nisl nec, semper ullamcorper elit. Aenean luctus vel purus ut scelerisque. Suspendisse commodo luctus tortor. Fusce mi mi, varius in iaculis non, eleifend et nunc. Phasellus facilisis nibh sodales felis ultrices, sit amet consequat tortor dapibus. Curabitur quis nulla sed est efficitur malesuada. Aliquam facilisis ultricies felis, fermentum consectetur leo mattis sit amet.
+</div></div>
+        </div>
+
+
+    <!--  <iframe src="https://spinitron.com/WCFM/calendar"></iframe> -->
+    </div>
+    </body>
+</html>
