@@ -117,8 +117,8 @@ function headerHTML() {
           
     </div>
         
-      <div class="sidebar-section">
-      <div class="window" style="width: 100%;">
+      <div class="sidebar-section" style="height:100%">
+      <div class="window" style="width: 100%;height:100%;">
   <div class="title-bar">
     <div class="title-bar-text">First FM antenna.jpg</div>
     <div class="title-bar-controls">
@@ -128,7 +128,7 @@ function headerHTML() {
     </div>
   </div>
 
-  <div class="window-body">
+  <div class="window-body" style="height:100%">
     <img style="width:100%;" src="/Users/lauren/Desktop/wcfm91.9/wcfm91.9/website/wcfm_photos/First FM antenna, January 1957.jpeg" alt="Computer man">
 
   </div>
@@ -160,8 +160,9 @@ function headerHTML() {
   </div>
 </div>
 
-<div class="sidebar-section" style="margin-bottom:0;">
-          <img src="blinkiesCafe-3J.gif" alt="Computer man" style="width: 100%;">
+<div class="sidebar-section" style="margin-bottom:0;padding-top:10px;">
+<a href="http://wcfm-streaming.williams.edu:8000/stream" target="_blank"><img src="blinkiesCafe-3J.gif" alt="Computer man" style="width: 100%;"></a>
+  
         </div>
 
 <div class="sidebar-section" style="margin-bottom:0;">

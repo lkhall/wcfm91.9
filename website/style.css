@@ -534,15 +534,14 @@ main h6 {
 
 /* stuff you can probably edit easily */
   .player .title-bar {
-      background:linear-gradient(90deg, purple, orchid, pink);
+      background:linear-gradient(90deg, purple, blue, pink);
   }
     
   .player {
       width:fit-content;
       border: black solid 1px;
       border-width: 1px 0px 0px 1px;
-      margin-left:auto;
-      margin-right:auto;
+
   }
    
   .player .controlimg:hover {
