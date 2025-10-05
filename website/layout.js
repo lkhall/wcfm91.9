@@ -92,7 +92,7 @@ function headerHTML() {
     </div>
   </div>
   <div class="window-body">
-    <a href="https://docs.google.com/document/d/129pfCZKuTD8kbCVBcM3dUa6nx7DYiV7CZyq_uUDlktk/edit?tab=t.0" target="_blank"><button class="default">Station Manual</button></a>
+    <a href="https://docs.google.com/document/d/1OLg6bMM0BznlF9k2LsdzTT0-C2Kh-XkhUxRcGOD2k1Q/edit?usp=sharing" target="_blank"><button class="default">Station Manual</button></a>
     <p>The Station Manual is a general-purpose guide to everything WCFM. It contains instructions on how to become a certified DJ, work the transmitter, log your show, and more! </p>
     <a href="https://drive.google.com/file/d/1X7sm0Z-YaEpZTaj5jN1KMkc200N0oxiQ/view" target="_blank"><button class="default">Honor Code</button></a>
      <p>If you’re a DJ, you signed the honor code. It’s here for you if you ever need to refer back to it.</p>
@@ -116,9 +116,27 @@ function headerHTML() {
 </div>
           
     </div>
+    <div class="sidebar-section wcfm_gif" style="margin-bottom:10px;">
+    <div class="window wcfm_gif"  style="width: 100%;">
+<div class="title-bar">
+  <div class="title-bar-text">KIC Doc 0009.jpg</div>
+  <div class="title-bar-controls">
+    <button aria-label="Minimize"></button>
+    <button aria-label="Maximize"></button>
+    <button aria-label="Close"></button>
+  </div>
+</div>
+
+<div class="window-body">
+  <img style="width:100%;" src="wcfm_photos/KIC Document 0009.jpg" alt="Computer man">
+
+</div>
+</div>
+          
+    </div>
         
-      <div class="sidebar-section">
-      <div class="window" style="width: 100%;">
+      <div class="sidebar-section wcfm_gif" style="height:100%">
+      <div class="window wcfm_gif"  style="width: 100%;height:100%;">
   <div class="title-bar">
     <div class="title-bar-text">First FM antenna.jpg</div>
     <div class="title-bar-controls">
@@ -165,7 +183,7 @@ function headerHTML() {
   
         </div>
 
-<div class="sidebar-section" style="margin-bottom:0;">
+<div class="sidebar-section wcfm_gif" style="margin-bottom:0;">
       <div class="window" style="width: 100%;">
   <div class="title-bar">
     <div class="title-bar-text">KIC Doc 0007.png</div>
@@ -186,7 +204,7 @@ function headerHTML() {
 
 	 
 
-        <div class="sidebar-section" style="margin-bottom:0;">
+        <div class="sidebar-section wcfm_gif" style="margin-bottom:0;">
       <div class="window" style="width: 100%;">
   <div class="title-bar">
     <div class="title-bar-text">music dir's office.jpg</div>
@@ -208,7 +226,7 @@ function headerHTML() {
   <div class="sidebar-section" style="margin-bottom:0;height:100%;">
       <div class="window" style="width: 100%; height:100%;">
   <div class="title-bar">
-    <div class="title-bar-text">questions?  ♡(>ᴗ•)</div>
+    <div class="title-bar-text">easy links   °˖✧◝(⁰▿⁰)</div>
     <div class="title-bar-controls">
       <button aria-label="Minimize"></button>
       <button aria-label="Maximize"></button>
@@ -216,8 +234,10 @@ function headerHTML() {
     </div>
   </div>
 
-  <div class="window-body" style="height:100%;">
-    <p>Contact the managers linked on the "About" page.</p>
+  <div class="window-body easy_links" style="height:100%;">
+  <a href="https://spinitron.com/WCFM/" target="_blank"><p>Spinitron</p></a>
+    <a href="https://sites.williams.edu/wcfm/" target="_blank"><p>Old Website</p></a>
+    <a href="http://wcfm-streaming.williams.edu:8000/stream" target="_blank"><p>Streaming</p></a>
 
   </div>
 </div>

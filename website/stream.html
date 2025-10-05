@@ -88,7 +88,7 @@
   track_list = [
       {
           name:"WCFM 91.9",
-          path:"http://wcfm-streaming.williams.edu:8000/stream"
+          path:"https://wcfm-streaming.williams.edu:8443/stream"
       }
   ];
   loadTrack(track_index);
@@ -206,7 +206,7 @@
       <!-- =============================================== -->
 
   
-      <main id="content" style="padding:0; border:none;max-height:900px;"> <!-- Do NOT remove the ID here -->
+      <main id="content" class="streaming" style="padding:0; border:none;max-height:1050px;overflow-y:auto;"> <!-- Do NOT remove the ID here -->
 
         <noscript>Please enable JavaScript to view this website!</noscript>
 
@@ -216,7 +216,7 @@
 
 
         <section style="padding-bottom:10px;">
-        <div class="window" style="width:100%;max-height:inherit;overflow-y:auto;">
+        <div class="window" style="width:100%;">
           <div class="title-bar">
             <div class="title-bar-text">listen to wcfm	(o_ _)ﾉ彡☆</div>
             <div class="title-bar-controls">
@@ -225,7 +225,7 @@
               <button aria-label="Close"></button>
             </div>
           </div>
-          <div class="window-body" style="max-height:inherit;">
+          <div class="window-body">
             <div class="player">
               <div class="window">
                 <div class="title-bar">
@@ -275,8 +275,9 @@
           </div>
         </div>
       </section>
+ 
       <section style="padding-bottom: 10px;">
-        <div class="window" style="width:100%;max-height:inherit;overflow-y:auto;">
+        <div class="window" style="width:100%;">
           <div class="title-bar">
             <div class="title-bar-text">alternatively...</div>
             <div class="title-bar-controls">
@@ -285,7 +286,7 @@
               <button aria-label="Close"></button>
             </div>
           </div>
-          <div class="window-body" style="max-height:inherit;">
+          <div class="window-body">
 
             <a href="http://wcfm-streaming.williams.edu:8000/stream" target="_blank"><h1>listen in your browser</h1></a>
           </div>
@@ -309,8 +310,8 @@
         </div>
        </section>
         
-       <section style="height:100%;">
-        <div class="window" style="width:100%;height:100%;">
+       <section style="height:100%">
+        <div class="window streaming" style="width:100%;height:100%;overflow-y:auto;">
           <div class="title-bar">
             <div class="title-bar-text">current / last show & playlist   °˖✧◝(⁰▿⁰)◜✧˖°</div>
             <div class="title-bar-controls">
@@ -319,8 +320,8 @@
               <button aria-label="Close"></button>
             </div>
           </div>
-          <div class="window-body" style="height:100%; width:100%;">
-            <iframe style="border:none; width:100%;height:100%;" src="https://spinitron.com/widget/current-playlist?station=wcfm" allow="encrypted-media"></iframe>
+          <div class="window-body" style="width:100%;height:100%;">
+            <iframe style="border:none;width:100%;height:100%;" src="https://spinitron.com/widget/current-playlist?station=wcfm" allow="encrypted-media"></iframe>
           </div>
         </div>
        </section>

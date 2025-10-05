@@ -100,11 +100,21 @@ a:focus {
 
 main {
   grid-area: main;
-  overflow: hidden;
+  overflow:hidden;
   padding: var(--padding);
   background: var(--content-background-color);
   border: var(--border);
   border-radius: var(--round-borders);
+}
+.streaming::-webkit-scrollbar {
+  display: none;
+}
+.streaming {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.stream_main {
+  overflow-y:auto;
 }
 
 /* -------------------------------------------------------- */
@@ -485,6 +495,13 @@ main h6 {
   transform: translateY(0);
 }
 
+.contact_info p {
+  font-size:13px;
+}
+
+.easy_links p {
+  font-size:13px;
+}
 /* -------------------------------------------------------- */
 /* MOBILE RESPONSIVE */
 /* -------------------------------------------------------- */
@@ -497,7 +514,7 @@ main h6 {
 
   .layout {
     width: 100%;
-    grid-template: "header" auto  "leftSidebar" auto "main" auto "footer" auto / 1fr;
+    grid-template: "header" auto  "leftSidebar" auto "main" auto "rightSidebar" auto "footer" auto / 1fr;
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
   }
   .calendar_section {
@@ -509,9 +526,11 @@ main h6 {
   .wcfm_gif {
     display:none;
   }
+  /*
   .right-sidebar { 
     display: none;
   }
+  */
 
   aside {
     border-bottom: 1px solid;
