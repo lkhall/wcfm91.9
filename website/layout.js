@@ -39,7 +39,7 @@ function headerHTML() {
     </div>
   </div>
   <div class="window-body">
-    <img src="text.gif" alt="Computer man" style="width: 50; ">
+    <img src="text.gif" id="title_text" alt="Computer man">
   </div>
 </div>
 	        <title>WCFM 91.9</title>
@@ -68,18 +68,18 @@ function headerHTML() {
 
    <nav>
           <ul>
-            <li><a href="/Users/lauren/Desktop/wcfm91.9/wcfm91.9/website/index.html">Home</a></li>
-            <li><a href="/Users/lauren/Desktop/wcfm91.9/wcfm91.9/website/stream.html">Listen Here</a></li>
-            <li><a href="/Users/lauren/Desktop/wcfm91.9/wcfm91.9/website/about.html">About</a></li>
-            <li><a href="/Users/lauren/Desktop/wcfm91.9/wcfm91.9/website/calender.html">Calender</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="stream.html">Listen Here</a></li>
+            <li><a href="calender.html">Calendar</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="about.html">About</a></li>
           </ul>
         </nav>
   </div>
 </div>
         
         <div class="sidebar-section" style="margin-bottom:0;">
-          <img src="blinkiesCafe-Fs.gif" alt="Computer man" style="width: 100%;">
+          <img class="wcfm_gif" src="blinkiesCafe-Fs.gif" alt="Computer man" style="width: 100%;">
         </div>
         <div class="sidebar-section" style="margin-bottom:0;">
            <div class="window" style="width:100%;">
@@ -92,7 +92,7 @@ function headerHTML() {
     </div>
   </div>
   <div class="window-body">
-    <a href="https://docs.google.com/document/d/129pfCZKuTD8kbCVBcM3dUa6nx7DYiV7CZyq_uUDlktk/edit?tab=t.0" target="_blank"><button class="default">Station Manuel</button></a>
+    <a href="https://docs.google.com/document/d/129pfCZKuTD8kbCVBcM3dUa6nx7DYiV7CZyq_uUDlktk/edit?tab=t.0" target="_blank"><button class="default">Station Manual</button></a>
     <p>The Station Manual is a general-purpose guide to everything WCFM. It contains instructions on how to become a certified DJ, work the transmitter, log your show, and more! </p>
     <a href="https://drive.google.com/file/d/1X7sm0Z-YaEpZTaj5jN1KMkc200N0oxiQ/view" target="_blank"><button class="default">Honor Code</button></a>
      <p>If you’re a DJ, you signed the honor code. It’s here for you if you ever need to refer back to it.</p>
@@ -100,7 +100,7 @@ function headerHTML() {
 </div>
         </div>
 
-    <div class="sidebar-section" style="margin-bottom:0;padding:0;">
+    <div class="sidebar-section wcfm_gif" style="margin-bottom:0;padding:0;">
     <div class="window" style="width:100%;">
   <div class="title-bar">
     <div class="title-bar-text">call in (✯◡✯)</div>
@@ -117,8 +117,8 @@ function headerHTML() {
           
     </div>
         
-      <div class="sidebar-section" style="height:100%">
-      <div class="window" style="width: 100%;height:100%;">
+      <div class="sidebar-section">
+      <div class="window" style="width: 100%;">
   <div class="title-bar">
     <div class="title-bar-text">First FM antenna.jpg</div>
     <div class="title-bar-controls">
@@ -128,7 +128,7 @@ function headerHTML() {
     </div>
   </div>
 
-  <div class="window-body" style="height:100%">
+  <div class="window-body">
     <img style="width:100%;" src="/Users/lauren/Desktop/wcfm91.9/wcfm91.9/website/wcfm_photos/First FM antenna, January 1957.jpeg" alt="Computer man">
 
   </div>

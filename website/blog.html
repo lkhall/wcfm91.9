@@ -19,7 +19,7 @@
   rel="stylesheet"
   href="https://unpkg.com/98.css">
     <link href="./style.css" rel="stylesheet" />
-    
+    <link href="./style/style.css" rel="stylesheet" type="text/css" media="all">  
     <!-- JavaScript: -->
     <!-- You will have to change this to "../layout.js" if this HTML file is in a subfolder, to "../../layout.js" if this HTML file is in 2 subfolders, etc. -->
     <script src="./layout.js"></script>
@@ -41,7 +41,7 @@
       <!-- =============================================== -->
 
   
-      <main id="content" class="calendar_section" style="padding:0; border:none"> <!-- Do NOT remove the ID here -->
+      <main id="content" style="padding:0; border:none"> <!-- Do NOT remove the ID here -->
 
         <noscript>Please enable JavaScript to view this website!</noscript>
 
@@ -53,7 +53,7 @@
 
           <div class="window" style="width:100%;height:100%">
   <div class="title-bar">
-    <div class="title-bar-text">fall 2025 calendar   °˖✧◝(⁰▿⁰)◜✧˖°</div>
+    <div class="title-bar-text">blog   °˖✧◝(⁰▿⁰)◜✧˖°</div>
     <div class="title-bar-controls">
       <button aria-label="Minimize"></button>
       <button aria-label="Maximize"></button>
@@ -61,7 +61,20 @@
     </div>
   </div>
   <div class="window-body" style="height:100%">
-    <iframe style="border:none;width:100%; height: 100%; background-color: #c3c3c3;" src="https://spinitron.com/WCFM/calendar"></iframe>
+    <div id="container">
+        <div id="header">This site requires JavaScript!</div>
+        <div id="content">    
+          <h1>Welcome to my blog!</h1>
+          
+          <p>I hope you enjoy your time here!</p>
+          
+          
+          <div id="recentpostlistdiv"></div>
+          
+        </div> <!-- end of div id="content" -->
+        <div id="footer"></div>
+        </div> <!-- end of div id="container" -->    
+      <!-- Here's the link to our JavaScript! -->
   </div>
 </div>
 
@@ -78,5 +91,6 @@
 
 
     <!-- Add any additional Javascript code (<script></script>) here. -->
+    <script src="zonelet_starter_01_52/script.js"></script>
   </body>
 </html>

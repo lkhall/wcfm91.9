@@ -318,6 +318,16 @@ main ul li {
   margin-bottom: 0.2em;
   line-height: 1.3;
 }
+.board_members {
+  display: flex;
+  flex-wrap: wrap;
+}
+.member {
+  margin:5px;
+  width: calc(33.33% - 10px);
+}
+
+
 
 main ol {
   padding-left: 2em;
@@ -349,6 +359,9 @@ main hr {
   margin: 1.5em 0;
 }
 
+#title_text {
+  width: 60%;
+}
 /* HEADINGS: */
 
 main h1,
@@ -487,8 +500,15 @@ main h6 {
     grid-template: "header" auto  "leftSidebar" auto "main" auto "footer" auto / 1fr;
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
   }
-
-  
+  .calendar_section {
+    height: 1000px;
+  }
+  #title_text {
+    width:90%;
+  }
+  .wcfm_gif {
+    display:none;
+  }
   .right-sidebar { 
     display: none;
   }
